@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Aula 6 - 10/08/2022 </h1>
+<p>Fazer o formulário do PI.</p>
+<p>Cadastre-se na Ingressos, Uai!</p>
+<br> <form method="post" action="arquivo.php">
+Nome:<br> <input type="text" name="txtNome" maxlength=40 size=40 placeholder="Digite seu nome"><br>
+Data de nascimento:<br><input type="date" name="nascData"><br>
+CPF:<br><input type="text" name="CPF" maxlength=14 size=14 placeholder="___.___.___-__"><br>
+Telefone:<br><input type="tel" name="tel" maxlength=16 size=16 placeholder="(__) 9 ____-____"><br>
+Gênero:<br><input type="radio" name="genero" value="masc">Masculino 
+<input type="radio" name="genero" value="femi">Feminino
+<input type="radio" name="genero" value="outr">Outros<br>
+E-mail:<br><input type="email" name="email" maxlength=40 size=40 placeholder="exemplo@exemplo.com"><br>
+Confirmação de e-mail:<br><input type="email" name="email" maxlength=40 size=40 placeholder="exemplo@exemplo.com"><br>
+Senha:<br><input type="password" name="senha" maxlength=20 size=20><br>
+Confirme sua senha:<br><input type="password" name="senha" maxlength=20 size=20><br>
+<p><br><b>Agora é seu endereço:</b>
+<br>Rua:<br><input type="text" name="txtNome" maxlength=20 size=20 placeholder="Digite sua rua"> <br>
+Bairro:<br><input type="text" name="txtNome" maxlength=20 size=20 placeholder="Digite seu bairro"> <br>
+Cidade:<br><input type="text" name="txtNome" maxlength=20 size=20 placeholder="Digite sua cidade"> <br>
+Estado:<br>
+<select size="1"name="Estado">
+<option value="AC">Acre</option>
+    <option value="AL">Alagoas</option>
+    <option value="AP">Amapá</option>
+    <option value="AM">Amazonas</option>
+    <option value="BA">Bahia</option>
+    <option value="CE">Ceará</option>
+    <option value="DF">Distrito Federal</option>
+    <option value="ES">Espírito Santo</option>
+    <option value="GO">Goiás</option>
+    <option value="MA">Maranhão</option>
+    <option value="MT">Mato Grosso</option>
+    <option value="MS">Mato Grosso do Sul</option>
+    <option value="MG" selected>Minas Gerais</option>
+    <option value="PA">Pará</option>
+    <option value="PB">Paraíba</option>
+    <option value="PR">Paraná</option>
+    <option value="PE">Pernambuco</option>
+    <option value="PI">Piauí</option>
+    <option value="RJ">Rio de Janeiro</option>
+    <option value="RN">Rio Grande do Norte</option>
+    <option value="RS">Rio Grande do Sul</option>
+    <option value="RO">Rondônia</option>
+    <option value="RR">Roraima</option>
+    <option value="SC">Santa Catarina</option>
+    <option value="SP">São Paulo</option>
+    <option value="SE">Sergipe</option>
+    <option value="TO">Tocantins</option>
+    </select>
+    <br>
+CEP:<br><input type="text" name="txtNome" maxlength=9 size=10 placeholder="_____-___"></p>
+</body>
+</html>
